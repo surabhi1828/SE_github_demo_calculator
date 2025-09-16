@@ -34,3 +34,13 @@ class TestMultiplyDivideWithValidation:
             divide("10", 2)
 
 # TODO: Students will add TestMultiplyDivide class
+class TestMultiplyDivide:
+    def test_multiply_positive_numbers(self):
+        """Test multiplication for positive numbers"""
+        assert multiply(2,8)==16
+        assert multiply(5,4)==20
+
+    def test_divide_positive_numbers(self):
+        """Test division for positive numbers"""
+        assert divide(30,2)==15
+        assert divide(9,3)==3

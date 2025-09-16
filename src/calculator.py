@@ -31,6 +31,8 @@ def divide(a, b):
     print(f"Dividing {a} ÷ {b}")  # Added logging
     result = a / b
     print(f"Result: {result}")
+    print("This is a change in the feature/div branch! :)")
+    print("code for branch merge conflict, I am in feature/div branch!")
     return result
 
 # TODO: Students will add multiply, divide, power, sqrt functions
